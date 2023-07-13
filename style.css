@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    background-image: url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?landscape');
+}
+
+.card {
+    background: #000000d0;
+    color: whitesmoke;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 630px;
+    max-height: 420px;
+    height: 100%;
+    margin: 1em;
+}
+
+h1.temp{
+    margin: 0;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+
+input.search-bar {
+    border: none;
+    padding: 0.8rem;
+    font-family: inherit;
+    font-size: 25px;
+    border-radius: 18px;
+    color: black;
+    width: 70%;
+    
+    /* font-weight: bold; */
+}
